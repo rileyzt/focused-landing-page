@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(to right, #0f0f0f, #1c1c1c); /* Deep glossy black gradient */
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -10,29 +11,4 @@ body {
   justify-content: center;
   height: 100vh;
   text-align: center;
-  overflow: hidden;
-}
-
-.glass-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 40px 60px;
-  box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  font-size: 1.25rem;
-  font-weight: 400;
-}
-
-.highlight {
-  color: #00ffff; /* Neon cyan */
 }
